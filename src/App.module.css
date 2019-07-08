@@ -1,0 +1,31 @@
+.gridContainer{
+    display: grid;
+    grid-template-areas:
+    'header header header header header '
+    'sidebar main main main main '
+    'sidebar main main main main '
+    'sidebar main main main main '
+    'footer footer footer footer footer ';
+    grid-gap: 10px;
+    background-color: black;
+    padding: 10px;
+}
+.gridContainer > div {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+.footer{
+    grid-area: footer;
+}
+.header{
+    grid-area: header;
+}
+.main{
+    grid-area: main;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+
