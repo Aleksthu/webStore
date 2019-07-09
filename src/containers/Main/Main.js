@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 
+import ControlledCarousel from '../../components/Bootstrap/Carousel/Carousel';
+
+import classes from './Main.module.css';
 import mainClasses from '../../App.module.css';
 
 class Main extends Component{
@@ -8,15 +11,117 @@ class Main extends Component{
         return(
             <div className={mainClasses.main}>
                 <div>
-                    Current Sales/ Announcement. Big Image
+                    <ControlledCarousel/>
                 </div>
-                <div>
-                    <div>Highlighted Product</div>
-                    <div>Highlighted Product</div>
-                    <div>Highlighted Product</div>
-                    <div>Highlighted Product</div>
-                    <div>Highlighted Product</div>
-                    <div>Highlighted Product</div>
+                <div className={classes.gridContainer}>
+                    <div className={classes.highlightedProduct}>
+                        <h2>Highlighted Product</h2>
+                        <img placeholder='Image missing'/>
+                        <ul>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                        </ul>
+                    </div>
+                    <div className={classes.highlightedProduct}>
+                        <h2>Highlighted Product</h2>
+                        <img placeholder='Image missing'/>
+                        <ul>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                        </ul>
+                    </div>
+                    <div className={classes.highlightedProduct}>
+                        <h2>Highlighted Product</h2>
+                        <img placeholder='Image missing'/>
+                        <ul>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                        </ul>
+                    </div>
+                    <div className={classes.highlightedProduct}>
+                        <h2>Highlighted Product</h2>
+                        <img placeholder='Image missing'/>
+                        <ul>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                        </ul>
+                    </div>
+                    <div className={classes.highlightedProduct}>
+                        <h2>Highlighted Product</h2>
+                        <img placeholder='Image missing'/>
+                        <ul>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                        </ul>
+                    </div>
+                    <div className={classes.highlightedProduct}>
+                        <h2>Highlighted Product</h2>
+                        <img placeholder='Image missing'/>
+                        <ul>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                        </ul>
+                    </div>
+                    <div className={classes.highlightedProduct}>
+                        <h2>Highlighted Product</h2>
+                        <img placeholder='Image missing'/>
+                        <ul>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                        </ul>
+                    </div>
+                    <div className={classes.highlightedProduct}>
+                        <h2>Highlighted Product</h2>
+                        <img placeholder='Image missing'/>
+                        <ul>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                        </ul>
+                    </div>
+                    <div className={classes.highlightedProduct}>
+                        <h2>Highlighted Product</h2>
+                        <img placeholder='Image missing'/>
+                        <ul>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                        </ul>
+                    </div>
+                    <div className={classes.highlightedProduct}>
+                        <h2>Highlighted Product</h2>
+                        <img placeholder='Image missing'/>
+                        <ul>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                        </ul>
+                    </div>
+                    <div className={classes.highlightedProduct}>
+                        <h2>Highlighted Product</h2>
+                        <img placeholder='Image missing'/>
+                        <ul>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                        </ul>
+                    </div>
+                    <div className={classes.highlightedProduct}>
+                        <h2>Highlighted Product</h2>
+                        <img placeholder='Image missing'/>
+                        <ul>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                            <li>Product Specifications</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         );

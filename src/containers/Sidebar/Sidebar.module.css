@@ -1,0 +1,11 @@
+p{
+    font-size: 1.3rem;
+}
+.sidebar h1{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.sidebar{
+    width: 250px;
+}

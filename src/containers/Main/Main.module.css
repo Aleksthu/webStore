@@ -1,0 +1,28 @@
+img{
+    height: 50%;
+    
+}
+
+.gridContainer{
+    background-color: white;
+    margin: 20px;
+}
+.gridContainer > div {
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    font-size: 30px;
+    height: 500px;
+    width: 350px;
+    display: inline-block;
+  }
+
+.gridContainer div ul{
+    font-size: 1.4rem;
+    
+} 
+
+
+

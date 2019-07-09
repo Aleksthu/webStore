@@ -1,3 +1,24 @@
 .header{
-    grid-area: header;
+    height: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+    'logo searchBar register';
+}
+
+.logo{
+    margin: auto;
+}
+
+.searchBar{
+    margin: auto;
+    width:500px;
+    font-size: 1.3rem;
+}
+.searchBar input{
+    width: 350px;
+}
+
+.register{
+    margin: auto;
 }
