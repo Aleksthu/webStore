@@ -10,6 +10,7 @@ class Sidebar extends Component {
             <div className={mainClasses.sidebar}>
                 <div className={classes.sidebar}>
                     <h1>All Categories</h1>
+                    <hr/>
                     <p>Hover dropright Category</p>
                     <p>Hover dropright Category</p>
                     <p>Hover dropright Category</p>

@@ -7,7 +7,6 @@
     'sidebar main main main main '
     'footer footer footer footer footer ';
     grid-gap: 10px;
-    background-color: black;
     padding: 10px;
 }
 .gridContainer > div {
